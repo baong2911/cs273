@@ -1,0 +1,27 @@
+# Environments and Python caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Raw data can be large and may have distribution restrictions
+data/raw/*.csv
+
+# Reproducible generated data and artifacts
+data/processed/*.csv
+artifacts/doc2vec/*
+artifacts/features/*.npy
+artifacts/models/*.joblib
+artifacts/models/*.json
+artifacts/results/*.csv
+artifacts/results/*.json
+artifacts/results/confusion_matrices/*.png
