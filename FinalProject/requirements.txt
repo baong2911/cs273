@@ -1,0 +1,7 @@
+pandas>=1.5,<2.4
+numpy>=1.23,<2.1
+nltk>=3.8,<4.0
+gensim>=4.3,<5.0
+scikit-learn>=1.2,<1.7
+joblib>=1.2,<2.0
+pyspellchecker>=0.7,<1.0

@@ -1,0 +1,53 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Downloaded source data (retain data/.gitkeep only)
+data/*.csv
+
+# Generated training artifacts and evaluation output
+models/*.model
+models/*.joblib
+results/*.csv
+results/confusion_matrices/*.csv
+
+# Locally created submission archives
+*.zip
+*.tar.gz
